@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     
 <header className="">
-  <div className="bg-[#22272C] px-12 py-2 flex justify-between shadow-2xl items-center text-white">
+  <div className="bg-[#22272C] px-12 py-2 flex justify-between items-center text-white">
 
     <div>
       <img src={logo} className="w-32" alt="Logo" />
@@ -123,7 +123,7 @@ const Navbar = () => {
         muted
         loop
         id="myvideo"
-        className="mx-auto w-full absolute -top-[50px] -z-20 "
+        className="mx-auto w-full absolute -top-[px] -z-20 "
       >
         <source src={vid1} type="video/mp4" />
         Your browser does not support HTML5 video.
