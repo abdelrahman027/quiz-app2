@@ -6,7 +6,7 @@ type Props = {
     disabled?: boolean;
 };
 
-function Answer(props: Props) {
+function Answer(props:any) {
     const style = props.color ? { color: props.color } : {};
 
     return (
