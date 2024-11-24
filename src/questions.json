@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "question": "what is my name?",
+      "choices": ["Jimmy", "Boda", "Sami", "Ahmed"],
+      "correctAnswerIdx": 0
+    },
+    {
+      "question": "What is my last Name?",
+      "choices": ["Gamal", "Saad", "Hamdi", "ADel"],
+      "correctAnswerIdx": 0
+    },
+    {
+      "question": "What is my Job?",
+      "choices": ["Software engineer", "Sales", "Lawyer", "Doctor"],
+      "correctAnswerIdx": 0
+    },
+    {
+      "question": "What is my hobby?",
+      "choices": ["swim", "football", "tennis", "games"],
+      "correctAnswerIdx": 1
+    }
+  ]
+}
