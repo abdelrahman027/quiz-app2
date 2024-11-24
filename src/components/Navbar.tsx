@@ -8,20 +8,21 @@ import { MdHome } from "react-icons/md";
 import { FaHistory } from "react-icons/fa";
 import { MdHub } from "react-icons/md";
 import { FaSearch } from "react-icons/fa";
+import vid1 from "../images/vid.mp4"
 
 
 const Navbar = () => {
   return (
     
 <header className="">
-  <div className="bg-[#22272C] px-12 py-2 flex justify-between items-center text-white">
+  <div className="bg-[#22272C] px-12 py-2 flex justify-between shadow-2xl items-center text-white">
 
     <div>
       <img src={logo} className="w-32" alt="Logo" />
     </div>
 
 
-    <div className="relative shadow-lg">
+    {/* <div className="relative shadow-lg">
       <input
         className="px-6 w-96 rounded-lg"
         type="search"
@@ -65,10 +66,10 @@ const Navbar = () => {
 
         
       </div>
-    </div>
+    </div> */}
   </div>
 
-
+{/* 
   <div
     className="bg-[#363F49] shadow-2xl px-16 flex gap-20 text-white items-center justify-between"
   >
@@ -116,7 +117,17 @@ const Navbar = () => {
         <a href="/">Admin</a>
       </li>
     </ul>
-  </div>
+  </div> */}
+        <video
+        autoPlay
+        muted
+        loop
+        id="myvideo"
+        className="mx-auto w-full absolute -top-[50px] -z-20 "
+      >
+        <source src={vid1} type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
 </header>
   )
 }
