@@ -8,7 +8,7 @@ type Props = {
 
 function StatBar(props: Props) {
     return (
-        <div className={StatBar_module['stat-container']}>
+        <div className={`${StatBar_module['stat-container']} text-sm md:text-base`}>
             <p>
                 Questions: {props.currentQuestion}/{props.totalQuestions}
             </p>

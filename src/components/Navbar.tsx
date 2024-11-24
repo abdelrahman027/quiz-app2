@@ -118,16 +118,7 @@ const Navbar = () => {
       </li>
     </ul>
   </div> */}
-        <video
-        autoPlay
-        muted
-        loop
-        id="myvideo"
-        className="mx-auto w-full absolute -top-[px] -z-20 "
-      >
-        <source src={vid1} type="video/mp4" />
-        Your browser does not support HTML5 video.
-      </video>
+
 </header>
   )
 }

@@ -11,7 +11,7 @@ function Reset(props: Props) {
     const score = ((props.correctQuestions / props.totalQuestions) * 100).toFixed(2);
     console.log(parseInt(score));
     return (
-        <div className="w-1/2 mx-auto mt-12 bg-black/40 p-6 rounded-lg">
+        <div className="w-full md:w-1/2 mx-auto mt-12 bg-black/40 p-6 rounded-lg">
             <h1 className={`${Reset_module['reset-text']} text-2xl text-white`}>
                 You scored: {score}%
             </h1>
