@@ -1,29 +1,29 @@
 {
   "questions": [
     {
-      "question": "what is yolu score in the game?",
+      "question": "what is your score in the game?",
       "choices": ["less than 500", "more than 500", "more than 1000", "between 500 and 1000"],
       "correctAnswerIdx": 0
     },
     {
       "question": "How Many types of animals met?",
       "choices": ["one", "two", "four", "six"],
-      "correctAnswerIdx": 2
+      "correctAnswerIdx": 3
     },
     {
       "question": "Is there a monkey pic?",
-      "choices": ["yes", "No", "Maybe", "Don't know"],
-      "correctAnswerIdx": 1
+      "choices": ["one", "two", "three", "four"],
+      "correctAnswerIdx": 0
     },
     {
       "question": "How many girls there ?",
       "choices": ["zero", "one", "two", "four"],
-      "correctAnswerIdx": 3
+      "correctAnswerIdx": 1
     },
     {
       "question": "How many the green scenes you saw?",
       "choices": ["one", "two", "three", "four"],
-      "correctAnswerIdx": 1
+      "correctAnswerIdx": 0
     }
   ]
 }

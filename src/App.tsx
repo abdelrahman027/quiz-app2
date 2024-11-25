@@ -3,6 +3,8 @@ import { Questions } from './types';
 import { useState } from 'react';
 import StatBar from './components/StatBar';
 import QuestionComp from './components/Question';
+import LoggedIn from './components/LoggedIn';
+
 import App_module from './App.module.scss';
 import Reset from './components/Reset';
 import Answer_module from './components/Answer.module.scss';
@@ -17,6 +19,7 @@ function App() {
     const [incorrectAnswers, setIncorrectAnswers] = useState(0);
 
     const [waitingToAdvance, setWaitingToAdvance] = useState(false);
+    const [loggedIn,setLoggedIn]=useState(false)
 
     const onSubmit = (correct: boolean) => {
         if (correct) setCorrectAnswers(correctAnswers + 1);
@@ -35,7 +38,14 @@ function App() {
         setCorrectAnswers(0);
         setIncorrectAnswers(0);
         setWaitingToAdvance(false);
+        setLoggedIn(false)
+
     };
+
+    if (!loggedIn)
+        return (
+    <LoggedIn onSelect={()=>setLoggedIn(true)}/>
+    )
 
     if (currentQuestionIdx >= allQuestions.questions.length)
         return (
