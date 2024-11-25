@@ -19,8 +19,8 @@ root.render(
         Your browser does not support HTML5 video.
       </video>
         <Navbar />
-        <div className='text-center mt-12 text-6xl font-bold p-4 bg-black/20'>
-            <h2 className='text-white'>Boost Quiz</h2>
+        <div className='text-center mt-12 text-3xl md:text-6xl font-bold p-4 bg-black/20'>
+            <h2 className='text-white'>Scan Your Brain with our VR Game</h2>
         </div>
         <App />
     </React.StrictMode>
