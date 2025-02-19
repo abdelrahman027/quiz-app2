@@ -5,7 +5,7 @@ const LoggedIn = ({onSelect}:{onSelect:()=>void}) => {
   return (
     <div className='text-white mt-12 bg-black/40 p-6 md:w-1/3 mx-auto rounded-lg backdrop-blur flex items-center justify-center flex-col gap-12'>
       <div>
-      <img src={logo} className="w-32" alt="Logo" />
+      <h2 className='text-3xl font-bold'>Jimmy</h2>
     </div>
 
         <h4 className='md:text-2xl'>Submit form below then start the game </h4>

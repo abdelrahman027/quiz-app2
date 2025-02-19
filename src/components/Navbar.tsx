@@ -17,8 +17,8 @@ const Navbar = () => {
 <header className="">
   <div className="bg-[#22272C] px-12 py-2 flex justify-between items-center text-white">
 
-    <div>
-      <img src={logo} className="w-32" alt="Logo" />
+    <div className='text-3xl font-bold p-3'>
+      Jimmy
     </div>
 
 
